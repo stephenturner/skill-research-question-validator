@@ -7,10 +7,6 @@ It runs 4-5 targeted Consensus searches and returns a structured one-page assess
 novelty signal, evidence density, what the literature actually shows, direct gap quotes from
 published papers, and a recommended next step.
 
-This is the go/no-go check that belongs at the top of the research workflow, before the
-[literature review helper](../other-skills/literature-review-helper/) or
-[grant finder](../other-skills/consensus-grant-finder/).
-
 ---
 
 ## How to use it
