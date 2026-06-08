@@ -7,12 +7,30 @@ It runs 4-5 targeted Consensus searches and returns a structured one-page assess
 novelty signal, evidence density, what the literature actually shows, direct gap quotes from
 published papers, and a recommended next step.
 
----
+## Installation
 
-## How to use it
+**Option 1: Download ZIP**
+
+Click the green **Code** button at the top of this repo, then **Download ZIP**. Extract the ZIP and add the folder to your Claude skills directory.
+
+**Option 2: Releases**
+
+Go to the [Releases](https://github.com/stephenturner/skill-research-question-validator/releases) page and download the latest `.skill` file. Add it to your Claude skills in [customize/skills](https://claude.ai/customize/skills) on the web, or double-click it if you have Claude Desktop installed.
+
+**Option 3: Build it yourself**
+
+Build a `.skill` file from the source code, then add it to your Claude skills as described above.
+
+```sh
+git clone https://github.com/stephenturner/skill-research-question-validator.git
+cd skill-research-question-validator
+zip -r research-question-validator.skill SKILL.md references/
+```
+
+## Usage
 
 Just describe your research question in plain language. The skill parses the question,
-runs the searches, and delivers an assessment. No form to fill out, no phases to click through.
+runs the searches, and delivers an assessment. 
 
 **Trigger phrases:**
 
@@ -92,6 +110,8 @@ The assessment comes back in chat as a structured one-pager:
 ---
 
 ## Where this fits in the workflow
+
+Get additional skills like the literature review helper and the grant finder that both use Consensus at [consensus.app/home/mcp/](https://consensus.app/home/mcp/)
 
 ```
 Research Question Validator   ← you are here
