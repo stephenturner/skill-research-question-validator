@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/stephenturner-skill-research-question-validator-badge.png)](https://mseep.ai/app/stephenturner-skill-research-question-validator)
+
 # Research Question Validator
 
 A lightweight skill that checks whether a proposed research question is novel, saturated, or
